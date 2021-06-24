@@ -90,7 +90,7 @@ const farms: FarmConfig[] = [
 
   {
     pid: 0,
-    risk: 5,
+    risk: 1,
     lpSymbol: 'HONEY-BNB LP',
     lpAddresses: {
       97: '',
@@ -106,7 +106,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 1,
-    risk: 5,
+    risk: 1,
     lpSymbol: 'HONEY-BUSD LP',
     lpAddresses: {
       97: '',
@@ -122,7 +122,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 2,
-    risk: 5,
+    risk: 1,
     lpSymbol: 'HONEY-BTCB LP',
     lpAddresses: {
       97: '',
@@ -138,7 +138,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 3,
-    risk: 5,
+    risk: 1,
     lpSymbol: 'HONEY-ETH LP',
     lpAddresses: {
       97: '',
@@ -154,7 +154,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 4,
-    risk: 5,
+    risk: 1,
     lpSymbol: 'HONEY-CAKE LP',
     lpAddresses: {
       97: '',
@@ -170,7 +170,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 23,
-    risk: 2,
+    risk: 1,
     lpSymbol: 'HONEY-DINK LP',
     lpAddresses: {
       97: '',
@@ -186,7 +186,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 21,
-    risk: 2,
+    risk: 1,
     lpSymbol: 'HONEY-ASS LP',
     lpAddresses: {
       97: '',
@@ -218,7 +218,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 20,
-    risk: 2,
+    risk: 1,
     lpSymbol: 'BNB-ASS LP',
     lpAddresses: {
       97: '',
@@ -234,7 +234,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 5,
-    risk: 2,
+    risk: 1,
     lpSymbol: 'BNB-ETH LP',
     lpAddresses: {
       97: '',
@@ -250,7 +250,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 6,
-    risk: 2,
+    risk: 1,
     lpSymbol: 'BNB-BTCB LP',
     lpAddresses: {
       97: '',
@@ -266,7 +266,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 7,
-    risk: 4,
+    risk: 1,
     lpSymbol: 'BNB-CAKE LP',
     lpAddresses: {
       97: '',
@@ -282,7 +282,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 8,
-    risk: 3,
+    risk: 1,
     lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
       97: '',

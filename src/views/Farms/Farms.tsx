@@ -107,6 +107,9 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         {TranslateString(10000, 'Deposit Fee will be used to buyback HONEY')}
       </Heading>
+      <Heading as="h1" color="primary" mb="50px" style={{ textAlign: 'center' }}>
+        <b>Disclaimer: Make BNB-DINK LP tokens on Pancakeswap v2 NOT BeeSwap</b>
+      </Heading>
       <FarmTabButtons />
       <div>
         <Divider />

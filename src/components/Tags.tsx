@@ -2,8 +2,8 @@ import React from 'react'
 import { Tag, VerifiedIcon, CommunityIcon, BinanceIcon } from '@pancakeswap-libs/uikit'
 
 const RiskTag = ({ risk }) => (
-  <Tag variant={risk >= 3 ? 'failure' : 'success'} outline startIcon={<VerifiedIcon />}>
-    Risk {risk}
+  <Tag variant={risk >= 2 ? 'failure' : 'success'} outline startIcon={<VerifiedIcon />}>
+    Pancakeswap v{risk}
   </Tag>
 )
 
