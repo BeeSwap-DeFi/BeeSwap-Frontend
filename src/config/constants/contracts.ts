@@ -62,5 +62,9 @@ export default {
   ass: {
     56: '0x7c63f96feafacd84e75a594c00fac3693386fbf0',
     97: ''
+  },
+  dink: {
+    56: '0xEfd39883aDb365fbf591bC0d624c9e1b12AEA35f',
+    97: '',
   }
 }

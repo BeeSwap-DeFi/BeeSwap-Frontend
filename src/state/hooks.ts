@@ -140,6 +140,8 @@ export const useTotalValue = (): BigNumber => {
         val = busdPrice.times(farm.lpTotalInQuoteToken)
       } else if (farm.quoteTokenSymbol === QuoteToken.ASS) {
         val = cakePrice.times(farm.lpTotalInQuoteToken)
+      } else if (farm.quoteTokenSymbol === QuoteToken.DINK) {
+        val = cakePrice.times(farm.lpTotalInQuoteToken)
       }
 
       if (farm.pid !== 2 && farm.pid !== 4) {

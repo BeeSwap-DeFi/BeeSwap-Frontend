@@ -169,6 +169,22 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.pancake,
   },
   {
+    pid: 23,
+    risk: 2,
+    lpSymbol: 'HONEY-DINK LP',
+    lpAddresses: {
+      97: '',
+      56: '0x250c00Ac7F04d2B2b311eDE9F3e58B9690a6a548',
+    },
+    tokenSymbol: 'HONEY',
+    tokenAddresses: {
+      97: '',
+      56: '0x1BD7dF20aE5e884C61b7017FaC557e82cCA6baEe',
+    },
+    quoteTokenSymbol: QuoteToken.DINK,
+    quoteTokenAdresses: contracts.cake,  
+  },
+  {
     pid: 21,
     risk: 2,
     lpSymbol: 'HONEY-ASS LP',
@@ -183,6 +199,22 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.ASS,
     quoteTokenAdresses: contracts.cake,  
+  },
+  {
+    pid: 22,
+    risk: 2,
+    lpSymbol: 'BNB-DINK LP',
+    lpAddresses: {
+      97: '',
+      56: '0xe6EBCffbd8C2fa8114cD00Ec9ae4113EcfA4783A',
+    },
+    tokenSymbol: 'DINK',
+    tokenAddresses: {
+      97: '',
+      56: '0xEfd39883aDb365fbf591bC0d624c9e1b12AEA35f',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,  
   },
   {
     pid: 20,

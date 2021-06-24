@@ -69,6 +69,8 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           totalValue = totalValue.times(ethPrice)
         } else if (farm.quoteTokenSymbol === QuoteToken.ASS) {
           totalValue = totalValue.times(cakePrice)
+        } else if (farm.quoteTokenSymbol === QuoteToken.DINK) {
+          totalValue = totalValue.times(cakePrice)
         }
 
         if (totalValue.comparedTo(0) > 0) {
@@ -87,13 +89,12 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           bnbPrice={bnbPrice}
           cakePrice={cakePrice}
           ethPrice={ethPrice}
-          assPrice = {assPrice}
           ethereum={ethereum}
           account={account}
         />
       ))
     },
-    [bnbPrice, account, cakePrice, ethPrice, assPrice, ethereum],
+    [bnbPrice, account, cakePrice, ethPrice, ethereum],
   )
 
   return (

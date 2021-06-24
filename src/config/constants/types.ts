@@ -29,6 +29,7 @@ export enum QuoteToken {
   'BTCB' = 'BTCB',
   'ETH' = 'ETH',
   'ASS' = 'ASS',
+  'DINK' = 'DINK',
   'HONEY' = 'HONEY'
 }
 
